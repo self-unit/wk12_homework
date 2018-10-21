@@ -7,10 +7,13 @@ public class Shop {
     private ArrayList<ISell> stock;
 
     public Shop(){
-
     }
 
     public ArrayList<ISell> getStock() {
         return stock;
+    }
+
+    public void addStock(ISell stockItem) {
+        this.stock.add(stockItem);
     }
 }
