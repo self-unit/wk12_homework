@@ -1,3 +1,5 @@
+package instruments;
+
 public enum ColourType {
     RED,
     ORANGE,

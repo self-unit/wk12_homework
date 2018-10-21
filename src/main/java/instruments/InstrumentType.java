@@ -1,3 +1,5 @@
+package instruments;
+
 public enum InstrumentType {
     WOODWIND,
     BRASS,
