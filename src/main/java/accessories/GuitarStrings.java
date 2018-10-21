@@ -8,8 +8,8 @@ public class GuitarStrings extends Accessory implements ISell {
     private String type;
     private int amount;
 
-    public GuitarStrings(InstrumentType family, double buyAt, double sellAt, String type, int amount){
-        super(family, buyAt, sellAt);
+    public GuitarStrings(InstrumentType family, double boughtAt, double sellAt, String type, int amount){
+        super(family, boughtAt, sellAt);
         this.amount = amount;
         this.type = type;
     }

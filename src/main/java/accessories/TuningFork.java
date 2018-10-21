@@ -7,8 +7,8 @@ public class TuningFork extends Accessory implements ISell {
 
     private String key;
 
-    public TuningFork(InstrumentType family, double buyAt, double sellAt, String key){
-        super(family, buyAt, sellAt);
+    public TuningFork(InstrumentType family, double boughtAt, double sellAt, String key){
+        super(family, boughtAt, sellAt);
         this.key = key;
     }
 

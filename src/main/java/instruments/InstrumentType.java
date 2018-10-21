@@ -5,7 +5,8 @@ public enum InstrumentType {
     BRASS("Parp"),
     STRING("Vrrrrrrrr"),
     KEYBAORD("Plink-Plonk"),
-    PERCUSSION("Clack");
+    PERCUSSION("Clack"),
+    VOCAL("AHHH");
 
     private final String sound;
 

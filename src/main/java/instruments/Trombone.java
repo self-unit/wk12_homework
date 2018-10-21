@@ -7,8 +7,8 @@ public class Trombone extends Instrument implements IPlay, ISell {
 
     private String scale;
 
-    public Trombone(MaterialType material, ColourType colour, InstrumentType family, double buyAt, double sellAt, String scale){
-        super(material, colour, family, buyAt, sellAt);
+    public Trombone(MaterialType material, ColourType colour, InstrumentType family, double boughtAt, double sellAt, String scale){
+        super(material, colour, family, boughtAt, sellAt);
         this.scale = scale;
     }
 

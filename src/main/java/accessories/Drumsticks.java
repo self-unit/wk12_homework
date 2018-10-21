@@ -7,12 +7,13 @@ public class Drumsticks extends Accessory implements ISell {
 
     private int sets;
 
-    public Drumsticks(InstrumentType family, double buyAt, double sellAt, int sets){
-        super(family, buyAt, sellAt);
+    public Drumsticks(InstrumentType family, double boughtAt, double sellAt, int sets){
+        super(family, boughtAt, sellAt);
         this.sets = sets;
     }
 
     public int getSets() {
         return sets;
     }
+
 }
